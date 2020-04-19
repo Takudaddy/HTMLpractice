@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+    <table width="100%" border="1" summary="우리집에서 지난 이틀간 만든 요리에 대한 평가표 ">
+        <caption>오늘은 내가 요리사</caption>               <!--caption은 테이블의 제목-->
+          <colgroup>                                 <!--columngroup의 약자,즉, '열'의 그룹-->
+              <col width="25%">                      <!--col은 나뉘어지는 열 수 만큼 *비율은 반드시 %로 표기 -->
+              <col width="25%">
+              <col width="25%">
+              <col width="25%">
+          </colgroup>
+
+          <thead>             <!--thead/tfoot/tbody는 행의 그룹/ 코딩순서는 아래순으로 작성-->
+              <tr>                               <!--tr은 table row/ 행을 뜻함 -->
+                  <th>요리 만든 날</th>           <!--thead는 th(table header cell,제목셀)만 제공가능-->
+                  <th>먹은사람</th>               <!--td(table data cell)는 내용셀-->
+                  <th>지역</th>
+                  <th>만족도</th>
+              </tr>
+          </thead>
+
+          <tfoot>
+            <tr>
+                <th>합계</th>
+                <td>6명</td>
+                <td>아른헴</td>
+                <td>상</td>
+            </tr>
+          </tfoot>
+
+          <tbody>
+            <tr>
+              <th>2020년 4월 18일</th>
+              <td>3명</td>
+              <td>아른헴</td>
+              <td>상</td>
+            </tr>
+
+            <tr>
+              <th>2020년 4월 19일</th>
+              <td>3명</td>
+              <td>아른헴</td>
+              <td>상</td>
+            </tr>
+
+          </tbody>
+    </table>
+
+<br><br><br><br><br>
+
+    <table width="100%" border="1" summary="행열 합치는연습">
+       <caption>행열을 합쳐보자</caption>
+            <tr>
+               <td colspan="2">1</td>
+
+               <td rowspan="2">3</td>
+               <td>4</td>
+            </tr>
+            <tr>
+               <td>5</td>
+               <td>6</td>
+
+               <td>8</td>
+            </tr>
+            <tr>
+               <td>9</td>
+               <td colspan="3">10</td>
+
+            </tr>
+
+       </table>
+
+  </body>
+</html>
