@@ -1,9 +1,44 @@
-<table> :테이블 태그의 시작
+ 
 
-<tr>: column, 줄(열)의 시작
+<table> : 테이블 태그의 시작
 
-<td> : row, 칸(행)의 시작
+*summary를 꼭 추가해야 한다
 
+ 
+
+<caption> : 테이블의 제목
+
+<colgroup> : (column) 열'의 그룹
+
+<col> : 표에서 필요한 열 수만큼 작성,
+
+            비율은 반드시 %로 표기
+
+ 
+
+<thead/tfoot/tbody> : '행'의 그룹
+
+시각 장애인들을 배려해
+
+코딩 순서는 위 순으로 하기,
+
+실제 보이는 건 순서대로
+
+*위 세 가지 요소가 필수 요소는 아님
+
+상황에 따라 헤드나 풋이 없을 수 있음
+
+ 
+
+<tr> : table row / 행
+
+<th> : table header cell,
+
+thead는 th만 사용 가능
+
+ 
+
+<td> : table data cell, 내용셀
 
 
 
