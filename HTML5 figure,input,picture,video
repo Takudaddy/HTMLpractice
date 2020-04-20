@@ -1,0 +1,68 @@
+<!DOCTYPE html5>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Figure</title>
+  </head>
+
+
+
+<body>
+
+
+  <a href="#a">
+      <figure>
+           <img src="타쿠.jpg" alt="">
+              <figcaption>
+              어린 타쿠가 늠름한 아빠를 향해 거칠게 짖고 있다
+              <span>작성일</span> 2017-11-11
+              </figcaption>
+      <figure>
+  </a>
+
+
+<ul>
+<li input type="color">color</li>
+<li input type="date">date</li>
+<li input type="datetime">datetime</li>
+<li input type="datetime-local">datetime-local</li>
+<li input type="month">월 선택</li>
+<li input type="week">주 선택</li>
+<li input type="time">시간 선택</li>
+<li input type="email">이메일 키보드 생성</li>
+<li input type="number">숫자 키보드 생성</li>
+<li input type="range">슬라이더 범위 선택</li>
+<li input type="search">검색어 입력</li>
+<li input type="tel">전화번호 입력</li>
+<li input type="url">도메인 입력</li>
+
+</ul>
+
+
+<picture>
+    <source media ="(min-width:800px)" srcset= "images가 800px 이상.jpg">
+    <source media ="(min-width:350px)" srcset= "images가 351~799px 사이.jpg">
+    <img src="타쿠.jpg" alt="size test">
+</picture>
+
+
+
+
+<video controls autoplay loop preload="none" width="500px" height="300px">
+      <source src="타쿠대디.mp4" type="video/mp4">
+</video>
+
+
+
+
+<audio controls autoplay loop preload="none">
+      <source src="타쿠대디.mp3" type="audio/mp3">
+</audio>
+
+
+
+
+</body>
+
+
+</html>
